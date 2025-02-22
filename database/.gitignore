@@ -1,0 +1,10 @@
+/vendor
+/node_modules
+/storage
+/bootstrap/cache
+.env
+.env.example
+.DS_Store
+/public/storage
+/public/hot
+

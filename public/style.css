@@ -1,0 +1,80 @@
+/* Global Styles */
+body {
+    
+    font-family: Arial, sans-serif;
+}
+/* Global Styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+}
+h1{
+    color:#fff;
+}
+
+/* Video Background */
+#background-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+}
+
+/* Content */
+.content {
+    position: relative;
+    z-index: 1;
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+
+/* Style for index.blade.php */
+.events-index {
+    text-align: center;
+}
+
+.events-table {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+/* Style for create.blade.php */
+.event-create {
+    max-width: 600px;
+    margin: auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Style for show.blade.php */
+.event-show {
+    max-width: 600px;
+    margin: auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Style for edit.blade.php */
+.event-edit {
+    max-width: 600px;
+    margin: auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Buttons */
+.btn-custom {
+    margin-top: 10px;
+    width: 100%;
+}
